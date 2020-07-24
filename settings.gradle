@@ -1,0 +1,3 @@
+rootProject.name = 'BattleShipGame_Kotlin'
+
+include ':app'
