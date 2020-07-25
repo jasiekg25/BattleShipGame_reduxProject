@@ -10,4 +10,6 @@ data class Point(
             Direction.VERTICAL -> Point(col, row + wDirection.len)
         }
     }
+
+    fun isValid() = col >= 0 && row >= 0
 }
